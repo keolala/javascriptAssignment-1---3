@@ -8,6 +8,9 @@
 </head>
 <body>
     <h1 id = "result"></h1>
+    <h1 id = "result2"></h1>
+     <h1 id = "result3"></h1>
+
     <script>  
     const name = "Keola Mahatma";
     let age = 15;
@@ -27,8 +30,10 @@
     } else  {
         text = " Not passed";
     }
-    console.log("My name is " + name + "and" + age + "years old" + "Is student :  " + isStudent);
+    
     document.getElementById("result").innerHTML = "Plus : " + plus + "Minus:" + minus + "Multiply:" + multiply + "Devide: " + devide;
+    document.getElementById("result2").innerHTML = "Score: " + score + "Status: " + text;
+    document.getElementById("result3").innerHTML = "My name is " + name + "and" + age + "years old" + "Is student :  " + isStudent;
     </script> 
 </body>
 </html>
