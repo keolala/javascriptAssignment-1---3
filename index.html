@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <h1 id = "result"></h1>
+    <script>  
+    const name = "Keola Mahatma";
+    let age = 15;
+    let isStudent = true;
+    let a = 5;
+    let b = 10;
+    let c = 15;
+    let plus = a + b + c;
+    let minus = c - b ;
+    let multiply = a * b * c;
+    let devide = a / b;
+
+    var score = 80;
+
+      if (score >=75) {
+        text = " passed";
+    } else  {
+        text = " Not passed";
+    }
+    console.log("My name is " + name + "and" + age + "years old" + "Is student :  " + isStudent);
+    document.getElementById("result").innerHTML = "Plus : " + plus + "Minus:" + minus + "Multiply:" + multiply + "Devide: " + devide;
+    </script> 
+</body>
+</html>
